@@ -17,3 +17,29 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.circle_portrait {
+    width: 29%;
+    height: 49%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10% auto;
+
+}
+
+#img_profile {
+    height: 100%;
+    width: auto;
+}
+
+.bg_color {
+    background-color: #2a2b8c;
+}
+
+#h1_other {
+    text-align: center;
+    color: #f7f7ff;
+    font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
+}
