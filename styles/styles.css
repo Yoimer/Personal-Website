@@ -43,3 +43,16 @@ body, html {
     color: #f7f7ff;
     font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
 }
+
+.vid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
