@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    color: #2a2b8c;
+    font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("https://farm8.staticflickr.com/7620/27926358671_c4a7d7ca48_k.jpg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
