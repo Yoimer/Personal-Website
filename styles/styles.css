@@ -4,9 +4,14 @@ h1 {
     font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    min-height: 100%;
+}
+
 .bg {
     background-image: url("https://farm8.staticflickr.com/7620/27926358671_c4a7d7ca48_k.jpg");
 
+    margin: 0;
     height: 100%;
 
     background-position: center;
@@ -14,21 +19,28 @@ h1 {
     background-size: cover;
 }
 
-
 .circle_portrait {
-    width: 29%;
-    height: 49%;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 10% auto;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 
+  margin: 0 auto;
+
+  background-image: url("https://farm1.staticflickr.com/921/28179566147_a62f2ae7f3_b.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: 20px solid #151668;
 }
 
-#img_profile {
-    height: 100%;
-    width: auto;
+#circle_wrap {
+    text-align: center;
+    margin-top: 60px;
 }
+
+
 
 .bg_color {
     background-color: #2a2b8c;
