@@ -4,10 +4,6 @@ h1 {
     font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
 }
 
-body, html {
-    height: 100%;
-}
-
 .bg {
     background-image: url("https://farm8.staticflickr.com/7620/27926358671_c4a7d7ca48_k.jpg");
 
@@ -96,3 +92,30 @@ th {
     background-color: #7273db;
 }
 
+#list_nav {
+    list-style-type: none;
+    color: #2a2b8c;
+    font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
+    font-size: 330%;
+}
+
+#ul_nav {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 600px;
+}
+
+.space {
+    display:inline-block;
+    width: 20%;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #151668;
+}
