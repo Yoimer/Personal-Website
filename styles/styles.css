@@ -40,11 +40,27 @@ body, html {
 
 #h1_other {
     text-align: center;
-    color: #f7f7ff;
+    /*color: #f7f7ff;*/
+    color: #ffffff;
+    font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: left;
+    /*color: #f7f7ff;*/
+    color: #ffffff;
     font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
 }
 
 .vid {
+    display: block;
+    margin-left: auto;
+    margin-right: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#vid_travel {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -52,7 +68,31 @@ body, html {
     margin-bottom: 30px;
 }
 
+iframe {
+    border: 20px solid #151668;
+}
+
 table {
     margin-left: auto;
     margin-right: auto;
+    table-layout: fixed;
+    border: 20px solid #151668;
 }
+
+td {
+    width: 33%;
+    height: 33%;
+    background-color: #7273db;
+}
+
+.travel_image {
+    width: 540px;
+    height: auto;
+}
+
+th {
+    color: #ffffff;
+    font-family: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
+    background-color: #7273db;
+}
+
