@@ -85,12 +85,14 @@ table {
     margin-right: auto;
     table-layout: fixed;
     border: 20px solid #151668;
+    width: 100%;
 }
 
 td {
-    width: 33%;
-    height: 33%;
+    width: 50%;
+    height: 50%;
     background-color: #7273db;
+    text-align: center;
 }
 
 .travel_image {
