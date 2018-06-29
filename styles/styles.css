@@ -3,11 +3,16 @@
 strong {
   font-weight: bolder; }
 
-p {
-  text-align: left;
+p, th, h2 {
   color: #c90016;
   font-family: "PT Sans Caption", Arial, Helvetica, sans-serif;
   font-size: 150%; }
+
+p {
+  text-align: left; }
+
+th, h2 {
+  text-align: center; }
 
 html, body {
   min-height: 100%; }
@@ -30,7 +35,7 @@ html, body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  border: 20px solid #c90016; }
+  border: 15px solid #c90016; }
 
 #circle_wrap {
   text-align: center;
@@ -45,15 +50,7 @@ html, body {
   font-family: "Alegreya Sans SC", Arial, Helvetica, sans-serif;
   font-size: 330%; }
 
-h2 {
-  text-align: left;
-  color: #ffffff;
-  font-family: "Alegreya Sans SC", Arial, Helvetica, sans-serif; }
-
 .vid {
-  display: block;
-  margin-left: auto;
-  margin-right: 80%;
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -65,29 +62,22 @@ h2 {
   margin-bottom: 30px; }
 
 iframe {
-  border: 20px solid #c90016; }
+  border: 10px solid #c90016; }
 
 table {
   margin-left: auto;
   margin-right: auto;
   table-layout: fixed;
-  border: 20px solid #c90016;
   width: 100%; }
 
 td {
   width: 50%;
   height: 50%;
-  background-color: #7273db;
   text-align: center; }
 
 .travel_image {
   width: 540px;
   height: auto; }
-
-th {
-  color: #ffffff;
-  font-family: "Alegreya Sans SC", Arial, Helvetica, sans-serif;
-  background-color: #7273db; }
 
 #list_nav {
   list-style-type: none;

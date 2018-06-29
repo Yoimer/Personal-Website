@@ -10,11 +10,18 @@ strong {
     font-weight: bolder;
 }
 
-p {
-    text-align: left;
+p, th, h2 {
     color: $secondary-color;
     font-family: $text-content-font;
     font-size: 150%;
+}
+
+p {
+    text-align: left;
+}
+
+th, h2 {
+    text-align: center;
 }
 
 html, body {
@@ -45,7 +52,7 @@ html, body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  border: 20px solid $secondary-color;
+  border: 15px solid $secondary-color;
 }
 
 #circle_wrap {
@@ -66,16 +73,7 @@ html, body {
     font-size: 330%;
 }
 
-h2 {
-    text-align: left;
-    color: $third-color;
-    font-family: $font-stack;
-}
-
 .vid {
-    display: block;
-    margin-left: auto;
-    margin-right: 80%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -89,33 +87,25 @@ h2 {
 }
 
 iframe {
-    border: 20px solid $secondary-color;
+    border: 10px solid $secondary-color;
 }
 
 table {
     margin-left: auto;
     margin-right: auto;
     table-layout: fixed;
-    border: 20px solid $secondary-color;
     width: 100%;
 }
 
 td {
     width: 50%;
     height: 50%;
-    background-color: #7273db;
     text-align: center;
 }
 
 .travel_image {
     width: 540px;
     height: auto;
-}
-
-th {
-    color: $third-color;
-    font-family: $font-stack;
-    background-color: #7273db;
 }
 
 #list_nav {
