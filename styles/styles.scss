@@ -1,0 +1,176 @@
+/*$primary-color: #2a2b8c;*/
+$primary-color: #ffffff;
+/*$secondary-color: #151668;*/
+$secondary-color: #c90016;
+$third-color: #ffffff;
+$font-stack: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
+$text-content-font: 'PT Sans Caption', Arial, Helvetica, sans-serif;
+
+strong {
+    font-weight: bolder;
+}
+
+p {
+    text-align: left;
+    color: $secondary-color;
+    font-family: $text-content-font;
+    font-size: 150%;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+.bg {
+    background-image: url("https://farm8.staticflickr.com/7620/27926358671_c4a7d7ca48_k.jpg");
+
+    margin: 0;
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.circle_portrait {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+
+  margin: 0 auto;
+
+  background-image: url("https://farm1.staticflickr.com/921/28179566147_a62f2ae7f3_b.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: 20px solid $secondary-color;
+}
+
+#circle_wrap {
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+.bg_color {
+    background-color: $primary-color;
+}
+
+.h1_other {
+    text-align: center;
+    color: $secondary-color;
+    font-family: $font-stack;
+    font-size: 330%;
+}
+
+h2 {
+    text-align: left;
+    color: $third-color;
+    font-family: $font-stack;
+}
+
+.vid {
+    display: block;
+    margin-left: auto;
+    margin-right: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#vid_travel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+iframe {
+    border: 20px solid $secondary-color;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    border: 20px solid $secondary-color;
+    width: 100%;
+}
+
+td {
+    width: 50%;
+    height: 50%;
+    background-color: #7273db;
+    text-align: center;
+}
+
+.travel_image {
+    width: 540px;
+    height: auto;
+}
+
+th {
+    color: $third-color;
+    font-family: $font-stack;
+    background-color: #7273db;
+}
+
+#list_nav {
+    list-style-type: none;
+    color: $primary-color;
+    font-family: $font-stack;
+    font-size: 330%;
+}
+
+#ul_nav {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 600px;
+}
+
+.space {
+    display:inline-block;
+    width: 20%;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: $third-color;
+}
+
+a:hover {
+    text-decoration: none;
+    color: $secondary-color;
+}
+
+.icon-settings {
+    font-size: 65px;
+}
+
+.icon_link:hover {
+    .icon-settings {
+        font-size: 80px;
+    }
+}
+
+#icon-linkedin {
+    color: #1178B3;
+}
+
+
+#icon-github, #icon-insta, #icon-flickr {
+    color: #222222;
+}
+
+#travel_link:link, #travel_link:visited {
+    text-decoration: none;
+    color: $secondary-color;
+}
+
+#travel_link:hover {
+    text-decoration: underline;
+    color: $secondary-color;
+}
