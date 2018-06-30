@@ -120,26 +120,59 @@ td {
 }
 
 .travel_image {
-    width: 540px;
+    width: 100%;
     height: auto;
 }
 
-@media screen and (max-width: 767px) {
-    .home-nav-element {
-        list-style-type: none;
-        color: $primary-color;
-        font-family: $font-stack;
-        font-size: 630%;
-    }
-}
-
-@media screen and (min-width: 768px) {
+@media (min-width: 481px) {
     .home-nav-element {
         list-style-type: none;
         color: $primary-color;
         font-family: $font-stack;
         font-size: 380%;
     }
+
+    .video-size {
+        width: 560px;
+        height: 315px;
+    }
+
+    .travel-vid-size {
+        width: 672px;
+        height: 378px;
+    }
+
+    %video-text {
+        margin-left: 50px;
+        text-align: right;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .video-size {
+        width: 336px;
+        height: 189px;
+    }
+
+    .travel-vid-size {
+        width: 336px;
+        height: 189px;
+    }
+
+    %video-text {
+        text-align: center;
+    }
+}
+
+.video-caption {
+    @extend %video-text;
+    font-size: 100%;
+}
+
+.video-title {
+    @extend %video-text;
+    font-weight: bold;
 }
 
 .vertical-center {
@@ -183,12 +216,12 @@ a:hover, a:active {
     color: #222222;
 }
 
-#travel_link:link, #travel_link:visited {
+.in-text-link:link, .in-text-link:visited {
     text-decoration: none;
     color: $secondary-color;
 }
 
-#travel_link:hover {
+.in-text-link:hover {
     text-decoration: underline;
     color: $secondary-color;
 }

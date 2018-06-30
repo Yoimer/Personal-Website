@@ -81,21 +81,44 @@ td {
   text-align: center; }
 
 .travel_image {
-  width: 540px;
+  width: 100%;
   height: auto; }
 
-@media screen and (max-width: 767px) {
+@media (min-width: 481px) {
   .home-nav-element {
     list-style-type: none;
     color: #ffffff;
     font-family: "PT Sans Caption", Arial, Helvetica, sans-serif;
-    font-size: 630%; } }
-@media screen and (min-width: 768px) {
-  .home-nav-element {
-    list-style-type: none;
-    color: #ffffff;
-    font-family: "PT Sans Caption", Arial, Helvetica, sans-serif;
-    font-size: 380%; } }
+    font-size: 380%; }
+
+  .video-size {
+    width: 560px;
+    height: 315px; }
+
+  .travel-vid-size {
+    width: 672px;
+    height: 378px; }
+
+  .video-caption, .video-title {
+    margin-left: 50px;
+    text-align: right; } }
+@media (max-width: 480px) {
+  .video-size {
+    width: 336px;
+    height: 189px; }
+
+  .travel-vid-size {
+    width: 336px;
+    height: 189px; }
+
+  .video-caption, .video-title {
+    text-align: center; } }
+.video-caption {
+  font-size: 100%; }
+
+.video-title {
+  font-weight: bold; }
+
 .vertical-center {
   text-align: center;
   vertical-align: middle;
@@ -125,11 +148,11 @@ a:hover, a:active {
 #icon-github, #icon-insta, #icon-flickr {
   color: #222222; }
 
-#travel_link:link, #travel_link:visited {
+.in-text-link:link, .in-text-link:visited {
   text-decoration: none;
   color: #c90016; }
 
-#travel_link:hover {
+.in-text-link:hover {
   text-decoration: underline;
   color: #c90016; }
 
