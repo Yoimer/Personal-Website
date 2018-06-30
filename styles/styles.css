@@ -1,7 +1,11 @@
-/*$primary-color: #2a2b8c;*/
-/*$secondary-color: #151668;*/
+/*$font-stack: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;*/
+/*$font-stack: 'Audiowide', Arial, Helvetica, sans-serif;*/
 strong {
   font-weight: bolder; }
+
+.my-name {
+  font-family: "PT Sans Caption", Arial, Helvetica, sans-serif;
+  color: #c90016; }
 
 p, th, h2 {
   color: #c90016;
@@ -11,7 +15,10 @@ p, th, h2 {
 p {
   text-align: left; }
 
-th, h2 {
+th {
+  text-align: center; }
+
+h2 {
   text-align: center; }
 
 html, body {
@@ -47,19 +54,17 @@ html, body {
 .h1_other {
   text-align: center;
   color: #c90016;
-  font-family: "Alegreya Sans SC", Arial, Helvetica, sans-serif;
+  font-family: "PT Sans Caption", Arial, Helvetica, sans-serif;
   font-size: 330%; }
 
-.vid {
+.vid, #vid_travel {
   margin-top: 30px;
   margin-bottom: 30px; }
 
 #vid_travel {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-right: auto; }
 
 iframe {
   border: 10px solid #c90016; }
@@ -79,13 +84,19 @@ td {
   width: 540px;
   height: auto; }
 
-#list_nav {
-  list-style-type: none;
-  color: #ffffff;
-  font-family: "Alegreya Sans SC", Arial, Helvetica, sans-serif;
-  font-size: 330%; }
-
-#ul_nav {
+@media screen and (max-width: 767px) {
+  .home-nav-element {
+    list-style-type: none;
+    color: #ffffff;
+    font-family: "PT Sans Caption", Arial, Helvetica, sans-serif;
+    font-size: 630%; } }
+@media screen and (min-width: 768px) {
+  .home-nav-element {
+    list-style-type: none;
+    color: #ffffff;
+    font-family: "PT Sans Caption", Arial, Helvetica, sans-serif;
+    font-size: 380%; } }
+.vertical-center {
   text-align: center;
   vertical-align: middle;
   line-height: 600px; }
@@ -98,7 +109,7 @@ a:link, a:visited {
   text-decoration: none;
   color: #ffffff; }
 
-a:hover {
+a:hover, a:active {
   text-decoration: none;
   color: #c90016; }
 

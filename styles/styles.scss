@@ -1,26 +1,39 @@
-/*$primary-color: #2a2b8c;*/
+
 $primary-color: #ffffff;
-/*$secondary-color: #151668;*/
 $secondary-color: #c90016;
 $third-color: #ffffff;
-$font-stack: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;
+/*$font-stack: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;*/
+/*$font-stack: 'Audiowide', Arial, Helvetica, sans-serif;*/
+$font-stack: 'PT Sans Caption', Arial, Helvetica, sans-serif;
 $text-content-font: 'PT Sans Caption', Arial, Helvetica, sans-serif;
 
 strong {
     font-weight: bolder;
 }
 
-p, th, h2 {
+.my-name {
+    font-family: $font-stack;
+    color: $secondary-color;
+}
+
+%text-content {
     color: $secondary-color;
     font-family: $text-content-font;
     font-size: 150%;
 }
 
 p {
+    @extend %text-content;
     text-align: left;
 }
 
-th, h2 {
+th {
+   @extend %text-content;
+   text-align: center;
+}
+
+h2 {
+    @extend %text-content;
     text-align: center;
 }
 
@@ -73,17 +86,20 @@ html, body {
     font-size: 330%;
 }
 
-.vid {
+%vid-shared {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.vid {
+    @extend %vid-shared;
 }
 
 #vid_travel {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    @extend %vid-shared;
 }
 
 iframe {
@@ -108,14 +124,25 @@ td {
     height: auto;
 }
 
-#list_nav {
-    list-style-type: none;
-    color: $primary-color;
-    font-family: $font-stack;
-    font-size: 330%;
+@media screen and (max-width: 767px) {
+    .home-nav-element {
+        list-style-type: none;
+        color: $primary-color;
+        font-family: $font-stack;
+        font-size: 630%;
+    }
 }
 
-#ul_nav {
+@media screen and (min-width: 768px) {
+    .home-nav-element {
+        list-style-type: none;
+        color: $primary-color;
+        font-family: $font-stack;
+        font-size: 380%;
+    }
+}
+
+.vertical-center {
     text-align: center;
     vertical-align: middle;
     line-height: 600px;
@@ -131,10 +158,11 @@ a:link, a:visited {
     color: $third-color;
 }
 
-a:hover {
+a:hover, a:active {
     text-decoration: none;
     color: $secondary-color;
 }
+
 
 .icon-settings {
     font-size: 65px;
