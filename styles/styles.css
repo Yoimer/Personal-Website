@@ -73,6 +73,9 @@ td {
   width: 100%;
   height: auto; }
 
+@media (min-width: 768px) {
+  .nav-button {
+    visibility: hidden; } }
 @media (min-width: 481px) {
   .bg {
     background-image: url("https://farm8.staticflickr.com/7620/27926358671_c4a7d7ca48_k.jpg");
