@@ -152,6 +152,9 @@ td {
   vertical-align: middle;
   line-height: 600px; }
 
+.horizontal-center {
+  text-align: center; }
+
 .space {
   display: inline-block;
   width: 20%; }
