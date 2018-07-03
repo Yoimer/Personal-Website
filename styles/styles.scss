@@ -1,14 +1,12 @@
 
 $primary-color: #ffffff;
-$secondary-color: #c90016;
+$secondary-color: #e07518;
 $third-color: #ffffff;
-/*$font-stack: 'Alegreya Sans SC', Arial, Helvetica, sans-serif;*/
-/*$font-stack: 'Audiowide', Arial, Helvetica, sans-serif;*/
 $font-stack: 'PT Sans Caption', Arial, Helvetica, sans-serif;
 $text-content-font: 'PT Sans Caption', Arial, Helvetica, sans-serif;
 
 strong {
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .my-name {
@@ -25,6 +23,11 @@ strong {
 p {
     @extend %text-content;
     text-align: left;
+}
+
+p::selection {
+    background-color: #e07518;
+    color: #ffffff;
 }
 
 th {
@@ -248,6 +251,7 @@ a:hover, a:active {
     font-size: 65px;
 }
 
+/* Nesting */
 .icon_link:hover {
     .icon-settings {
         font-size: 80px;
