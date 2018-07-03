@@ -5,7 +5,7 @@ Web Programming with Python and JavaScript
 <h2>index.html</h2>
 
 <p>
-This contains the code for website home page. I use media queries to make the homepage responsive. A mobile user will have
+This contains the code for my website home page. I use media queries to make the home page responsive. A mobile user will have
 a completley different experience than that of a laptop or desktop user. A mobile user will have an abstract purple design as a background
 and use a drop down navigation menu to navigate to other parts of the site. The mobile navigation menu is the same as the navigation
 menu used for the 3 other pages. Also to note, an unordered list is used to construct the mobile navigation menu. A laptop or desktop
