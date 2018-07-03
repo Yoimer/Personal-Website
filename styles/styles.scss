@@ -5,6 +5,7 @@ $third-color: #ffffff;
 $font-stack: 'PT Sans Caption', Arial, Helvetica, sans-serif;
 $text-content-font: 'PT Sans Caption', Arial, Helvetica, sans-serif;
 
+
 strong {
     font-weight: bold;
 }
@@ -71,6 +72,7 @@ h2 {
     color: $secondary-color;
     font-family: $font-stack;
     font-size: 330%;
+    font-weight: bold;
 }
 
 %vid-shared {
@@ -121,12 +123,19 @@ td {
 
     .bg {
 
-        background-image: url("https://farm8.staticflickr.com/7620/27926358671_c4a7d7ca48_k.jpg");
+        /*Original*/
+        /*background-image: url("https://farm8.staticflickr.com/7620/27926358671_c4a7d7ca48_k.jpg");*/
+
+        /*Kotor*/
+        background-image: url("https://farm8.staticflickr.com/7320/27906713082_463c07a252_b.jpg");
+
+        /*Nin*/
+        /*background-image: url("https://farm8.staticflickr.com/7323/27903713322_d75fbc88b0_b.jpg");*/
 
         margin: 0;
         height: 100%;
 
-        background-position: center;
+        background-position: 50% 20%;
         background-repeat: no-repeat;
         background-size: cover;
     }
